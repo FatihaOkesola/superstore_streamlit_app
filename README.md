@@ -30,11 +30,7 @@ This project extends my earlier Superstore sales diagnostic notebook by turning 
 
 ## Tools Used
 
-- Python
-- Streamlit
-- Pandas
-- Matplotlib
-
+Python · Streamlit · Pandas · Matplotlib
 ---
 
 ## Project Structure
@@ -52,3 +48,38 @@ This project extends my earlier Superstore sales diagnostic notebook by turning 
 ```bash
 git clone https://github.com/FatihaOkesola/superstore_streamlit_app.git
 ```
+
+### 2. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Run the app
+
+```bash
+streamlit run superstore_streamlit_code.py
+```
+
+---
+
+## Dataset
+
+[Superstore Sales Dataset — Kaggle](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)
+
+---
+
+## Notes / Assumptions
+
+This dataset is public and not tied to a specific company. The exclusion controls and discount scenario are illustrative counterfactuals — intended to show directional impact rather than predict exact real-world outcomes. All insights are based on assumptions stated within the app.
+
+---
+
+## Part of a Broader Portfolio
+
+This project is one of four tools applied to the same dataset:
+
+- Python → Profitability diagnostic notebook
+- Streamlit → Interactive dashboard (this project)
+- - Excel → Sales storytelling (completed after this)
+- SQL → Planned next step
