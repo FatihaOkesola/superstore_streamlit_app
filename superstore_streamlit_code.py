@@ -192,7 +192,7 @@ st.divider()
 # -----------------------------
 with st.expander("Step 3 — Furniture Diagnostic (Which sub-category is the root cause?)", expanded=True):
     st.markdown(
-        "**Insight:** If Furniture is underperforming, the root cause may be concentrated in specific sub-categories. This section breaks Furniture into sub-categories to identify whether losses are concentrated in a few product lines rather than s[read across the whole category." \
+        "**Insight:** If Furniture is underperforming, the root cause may be concentrated in specific sub-categories. This section breaks Furniture into sub-categories to identify whether losses are concentrated in a few product lines rather than spread across the whole category." \
         "Exclude sub-categories to test contribution (illustrative)."
     )
 
@@ -242,7 +242,7 @@ st.divider()
 # -----------------------------
 with st.expander("Step 4 — Tables Focus (Where do losses concentrate?)", expanded=False):
     st.markdown(
-        "**Insight:** After identifying Tbles as a major loss-making sub-category, the next question is whether the issue is uniform across all regions or concentrated in a few." \
+        "**Insight:** After identifying Tables as a major loss-making sub-category, the next question is whether the issue is uniform across all regions or concentrated in a few." \
         "This section compares regional profitability and discount level to Tables to isolate where losses are most severe and what may be driving them."
     )
 
